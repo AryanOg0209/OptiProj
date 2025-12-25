@@ -77,8 +77,6 @@ Comparison of the Baseline (Linear) vs. Best Model (Quadratic Interaction).
 | **Test MSE** | **9755.92** |
 | **Test R²** | **0.7044** |
 
-![Regression Model Comparison](results/plots/model_comparison_plots.png)
-
 ### 2. Constrained Optimization Results
 Convergence of the constraint violation using Dual Gradient Ascent. The error drops to zero (geometric decay).
 
