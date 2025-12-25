@@ -18,8 +18,8 @@ The project is modularized into two independent solvers, each with its own sourc
 ```text
 Optimization-Portfolio/
 │
-├── Question1Report.pdf          # Detailed Analysis Report (Regression)
-├── Question2Report.pdf          # Detailed Analysis Report (Optimization)
+├── RegressionAnalysis.pdf       # Detailed Analysis Report (Regression Module)
+├── ConstrainedApplication.pdf   # Detailed Analysis Report (Optimization Module)
 ├── requirements.txt             # Project dependencies
 ├── README.md                    # Documentation
 │
@@ -42,11 +42,11 @@ Optimization-Portfolio/
 │   └── run.py                   # Main execution entry point
 │
 └── results/                     # Generated Artifacts (Created upon execution)
-    ├── best_model.txt           # Q1 Performance Metrics (MSE, R2)
-    ├── metrics_table.xlsx       # Q1 Comparative Analysis
-    ├── solution.txt             # Q2 Optimization Results (Lambda, Cost)
-    ├── plots/                   # Q1 Prediction Visualizations
-    └── dual_convergence.png     # Q2 Convergence Plot
+    ├── best_model.txt           # Model Performance Metrics (MSE, R2)
+    ├── metrics_table.xlsx       # Comparative Analysis
+    ├── solution.txt             # Optimization Results (Lambda, Cost)
+    ├── plots/                   # Prediction Visualizations
+    └── dual_convergence.png     # Convergence Plot
 ```
 ## ⚙️ Setup & Installation
 1. **Clone the repository:**
@@ -83,12 +83,15 @@ Convergence of the constraint violation using Dual Gradient Ascent. The error dr
 ![Optimization Convergence](results/dual_convergence.png)
 
 ## 📄 Documentation
-```text
-For a deep dive into the mathematical proofs, bias-variance analysis, and derivation of the dual functions, please refer to the reports included in the root directory:
+### Click the links below to view the detailed PDF reports for each module. (Note: These files must be located in the root directory of the repository for the links to work.)
 
-RegressionAnalysis.pdf
+📘 Regression Analysis Report (PDF)
 
-ConstrainedApplication.pdf
+Detailed bias-variance analysis and model selection.
+
+📘 Optimization Analysis Report (PDF)
+
+Mathematical derivation of the dual function and convergence proofs.
 
 
 
