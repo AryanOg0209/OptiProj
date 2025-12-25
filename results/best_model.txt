@@ -1,0 +1,3 @@
+Best model: quadratic_with_interactions
+MSE: 9781.714086891643
+R2: 0.7036467084709557

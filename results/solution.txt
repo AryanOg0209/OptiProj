@@ -1,0 +1,5 @@
+Analytical Lagrangian Relaxation Solution
+------------------------------------------
+λ* = 0.0
+x* = (2.0, 1.0)
+f(x*) = 12.0
