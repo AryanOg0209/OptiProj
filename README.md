@@ -47,3 +47,9 @@ Optimization-Portfolio/
     ├── solution.txt             # Q2 Optimization Results (Lambda, Cost)
     ├── plots/                   # Q1 Prediction Visualizations
     └── dual_convergence.png     # Q2 Convergence Plot
+```
+## ⚙️ Setup & Installation
+Clone the repository:
+
+
+
