@@ -49,9 +49,26 @@ Optimization-Portfolio/
     └── dual_convergence.png     # Q2 Convergence Plot
 ```
 ## ⚙️ Setup & Installation
-Clone the repository:
-git clone [https://github.com/AryanOg0209/Optimization-Project.git](https://github.com/AryanOg0209/Optimization-Project.git)
-cd Optimization-Project
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/AryanOg0209/Optimization-Project.git](https://github.com/AryanOg0209/Optimization-Project.git)
+   cd Optimization-Project
+   ```
+2. **Install dependencies: Ensure you have Python 3.8+ installed. Then run:**
+   ```bash
+   pip install -r requirements.txt
+
+## 🚀 Usage Instructions
+1. **Running Module 1: Regression Analysis**
+   ```bash
+   # Navigate to the Q1 directory
+cd main_proj_code
+
+# Execute the analysis pipeline
+python run_all.py
+
+
+
 
 
 
