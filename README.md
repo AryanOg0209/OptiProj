@@ -82,6 +82,14 @@ Convergence of the constraint violation using Dual Gradient Ascent. The error dr
 
 ![Optimization Convergence](results/dual_convergence.png)
 
+## 📄 Documentation
+```text
+For a deep dive into the mathematical proofs, bias-variance analysis, and derivation of the dual functions, please refer to the reports included in the root directory:
+
+Question.pdf
+
+Question2Report.pdf
+
 
 
 
