@@ -50,6 +50,8 @@ Optimization-Portfolio/
 ```
 ## ⚙️ Setup & Installation
 Clone the repository:
+git clone [https://github.com/AryanOg0209/Optimization-Project.git](https://github.com/AryanOg0209/Optimization-Project.git)
+cd Optimization-Project
 
 
 
