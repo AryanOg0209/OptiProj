@@ -61,11 +61,28 @@ Optimization-Portfolio/
 ## 🚀 Usage Instructions
 1. **Running Module 1: Regression Analysis**
    ```bash
-   # Navigate to the Q1 directory
-cd main_proj_code
+   cd main_proj_code
+   python run_all.py
+   ```
+2. **Running Module 2: Constrained Optimization**
+   ```bash
+   cd constrained_lagrangian_code
+   python run.py
+## 📊 Results Snapshot
+### 1. Regression Analysis Results
+Comparison of the Baseline (Linear) vs. Best Model (Quadratic Interaction).
 
-# Execute the analysis pipeline
-python run_all.py
+| Metric | Best Model (Quadratic Interaction) |
+| :--- | :--- |
+| **Test MSE** | **9755.92** |
+| **Test R²** | **0.7044** |
+
+![Regression Model Comparison](results/plots/model_comparison_plots.png)
+
+### 2. Constrained Optimization Results
+Convergence of the constraint violation using Dual Gradient Ascent. The error drops to zero (geometric decay).
+
+![Optimization Convergence](results/dual_convergence.png)
 
 
 
